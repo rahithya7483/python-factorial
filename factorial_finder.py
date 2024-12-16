@@ -1,7 +1,7 @@
 factorial = 1
-initial_number = 6
+number = 6
 
-for i in range(1, initial_number + 1):
+for i in range(1, number + 1):
     factorial *= i
 
-print(f"The factorial of {initial_number} is {factorial}")
+print(f"The factorial of {number} is {factorial}")
